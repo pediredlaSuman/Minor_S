@@ -12,6 +12,20 @@ heart_disease_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/tr
 parkinsons_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_Parkinson_sav_svm', 'rb'))
 
 
+diabetes_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_diabetes_sav_LR', 'rb'))
+
+heart_disease_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_heart_sav_LR', 'rb'))
+
+parkinsons_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_Parkinson_sav_LR', 'rb'))
+
+diabetes_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_diabetes_sav_KNN', 'rb'))
+
+heart_disease_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_heart_sav_KNN', 'rb'))
+
+parkinsons_model = pickle.load(open('C:/Users/Suman/OneDrive/Desktop/Minor/trained_model_Parkinson_sav_KNN', 'rb'))
+
+
+
 
 # sidebar for navigation
 with st.sidebar:
